@@ -1,0 +1,11 @@
+:root{
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --cor-primaria: #121212;
+    --cor-secundaria: #b3b3b3;
+    --cor-terciaria: #242424;
+    --texto: #fff;
+    --background: #000;
+}
