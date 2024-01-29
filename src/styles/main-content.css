@@ -1,0 +1,94 @@
+.main-container {
+    height: 100vh;
+    max-width: 80vw;
+    margin: 0 56px 0 320px;
+}
+
+.header__navigation {
+    background-color: var(--cor-primaria);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 16px;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*Aplicando margin para todos os elementos filhos de navigation*/
+.header__navigation .navigation > * {
+    flex-grow: 1;
+    margin: 0 13px;
+}
+
+
+.header__navigation .navigation .arrow-left {
+    margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+    background: var(--background-icon);
+    background-color: var(--background-arrow);
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    align-items: center;
+}
+
+.header__search {
+    background-color: var(--cor-terciaria);
+    border: 1px solid transparent;
+    border-radius: 500px;
+    height: 48px;
+    width: 364px;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.header__search img {
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+}
+
+.header__search input{
+    color: var(--texto);
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    outline: none;
+    white-space: nowrap;
+}
+
+.header__login .subscribe {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--login-btn);
+    background-color: transparent;
+    margin-right: 32px;
+}
+
+.header__login .login {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--background);
+    border-radius: 40px;
+    height: 48px;
+    width: 100px;
+}
