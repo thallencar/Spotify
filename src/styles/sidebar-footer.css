@@ -152,7 +152,6 @@ body {
 }
 
 .sidebar .cookies a {
-  font-size: 10px;
   font-weight: 500;
   text-decoration: none;
   color: var(--cor-secundaria);
