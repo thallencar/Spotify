@@ -1,88 +1,227 @@
+/* HEADER */
+
 .main-container {
-    height: 100vh;
-    max-width: 80vw;
-    margin: 0 56px 0 320px;
+  height: 100vh;
+  max-width: 80vw;
+  margin: 0 56px 0 320px;
 }
 
 .header__navigation {
-    background-color: var(--cor-primaria);
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px;
-    padding: 16px;
+  background-color: var(--cor-primaria);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 16px;
 }
 
 .header__navigation .navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__navigation .navigation .arrow-left {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 
-.arrow-left, .arrow-right {
-    background: var(--background-icon);
-    background-color: var(--background-arrow);
-    border: none;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+.arrow-left,
+.arrow-right {
+  background: var(--background-icon);
+  background-color: var(--background-arrow);
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .header__login {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__search {
-    background-color: var(--cor-terciaria);
-    border: 1px solid transparent;
-    border-radius: 500px;
-    height: 48px;
-    width: 364px;
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
+  background-color: var(--cor-terciaria);
+  border: 1px solid transparent;
+  border-radius: 500px;
+  height: 48px;
+  width: 364px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
 }
 
 .header__search img {
-    height: 16px;
-    width: 16px;
-    margin-left: 10px;
+  height: 16px;
+  width: 16px;
+  margin-left: 10px;
 }
 
-.header__search input{
-    color: var(--texto);
-    background: transparent;
-    border: none;
-    padding: 0 100px 0 12px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    outline: none;
-    white-space: nowrap;
+.header__search input {
+  color: var(--texto);
+  background: transparent;
+  border: none;
+  padding: 0 100px 0 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  outline: none;
+  white-space: nowrap;
 }
 
 .header__login .subscribe {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--login-btn);
-    background-color: transparent;
-    margin: 0 32px 0 70px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--login-btn);
+  background-color: transparent;
+  margin: 0 32px 0 70px;
 }
 
 .header__login .login {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--background);
-    border-radius: 40px;
-    height: 48px;
-    width: 100px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--background);
+  border-radius: 40px;
+  height: 48px;
+  width: 100px;
+}
+
+/* PLAYLIST */
+
+.playlist-container {
+  background-color: var(--cor-primaria);
+  border-radius: 10px;
+  height: 68vh;
+  margin: 10px;
+  padding-top: 16px;
+}
+
+.playlist {
+  margin: 24px;
+}
+
+.playlist #greeting {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--texto);
+  margin-bottom: 48px;
+}
+
+.playlist .session {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--texto);
+}
+
+/* SCROLL */
+
+.offer__scroll-container {
+  max-height: 43vh;
+  margin: 24px;
+  overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+  width: 1px;
+}
+
+.offer__scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* FIM SCROLL */
+
+.offer__list-item {
+  display: grid;
+  justify-items: center;
+  gap: 16px;
+  grid-gap: 16px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 16px;
+  /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+  display: grid;
+  gap: 16px;
+  grid-gap: 32px;
+  margin: 0 auto;
+}
+
+.cards {
+  border-radius: 8px;
+  height: 200px;
+  width: 220px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cards span {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--texto);
+  padding: 16px;
+  position: absolute;
+}
+
+/* COLOR CARDS */
+.card1 {
+  background-color: rgb(77, 58, 102);
+}
+.card2 {
+  background-color: rgb(169, 53, 22);
+}
+.card3 {
+  background: rgb(47, 0, 177);
+}
+.card4 {
+  background: rgb(190, 130, 26);
+}
+.card5 {
+  background: rgb(52, 28, 58);
+}
+.card6 {
+  background: rgb(35, 43, 56);
+}
+.card7 {
+  background: rgb(92, 113, 130);
+}
+.card8 {
+  background: rgb(140, 161, 54);
+}
+.card9 {
+  background: rgb(55, 0, 0);
+}
+.card10 {
+  background: rgb(222, 2, 53);
+}
+.card11 {
+  background: rgb(27, 21, 21);
+}
+.card12 {
+  background: rgb(9, 23, 58);
+}
+.card13 {
+  background: rgb(48, 48, 48);
+}
+.card14 {
+  background: rgb(179, 162, 11);
+}
+.card15 {
+  background: rgb(0, 30, 80);
+}
+.card16 {
+    background: rgb(185, 34, 128);
+}
+
+/* FIM COLOR CARDS */
+
+.offer__list-item img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: 107px;
+  transform: rotate(25deg) translate(18%, -2%);
 }
