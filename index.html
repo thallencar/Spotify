@@ -58,8 +58,16 @@
                 </div>
             </section>
 
-            <div class="cookies">
-                <a href="">Cookies</a>
+            <div class="info-container">
+                <div class="cookies">
+                    <a href="">Cookies</a>
+                </div>
+                <div class="privacy">
+                    <a href="">Política de privacidade</a>
+                </div>
+                <div class="accessibility">
+                    <a href="">Acessibilidade</a>
+                </div>
             </div>
 
             <div class="languages">
@@ -84,7 +92,7 @@
                         <img src="./src/assets/icons/small-right.png" alt="Seta direita">
                     </button>
                 </div>    
-                <div class="header__search">
+                <div class="header__search" id="search-bar">
                     <img src="./src/assets/icons/search.png" alt="">
                     <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
                 </div>
@@ -99,12 +107,12 @@
             <div class="playlist-container">
                 <div id="result-playlists">
                     <div class="playlist">
-                        <h1 id="greeting">Boas vindas</h1>
+                        <h1 id="greeting">Deixe a música guiar sua jornada.</h1>
                         <h2 class="session">Navegar por todas as seções</h2>
                     </div>
     
                     <!-- Cards -->
-                    <div class="offer_scroll-container">
+                    <div class="offer__scroll-container">
                         <div class="offer__list">
                             <section class="offer__list-item">
                                 <!-- Card 1 -->
@@ -199,7 +207,7 @@
                                 <a href="" class="cards">
                                     <div class="cards card12"> 
                                         <img src="src/assets/playlist/12.jpeg" alt="">
-                                        <span>Sertanejo</span>
+                                        <span>K-Pop</span>
                                     </div>
                                 </a>
 
@@ -223,15 +231,14 @@
                                 <a href="" class="cards">
                                     <div class="cards card15"> 
                                         <img src="src/assets/playlist/15.jpeg" alt="">
-                                        <span>Funk</span>
+                                        <span>Sertanejo</span>
                                     </div>
                                 </a>
-
                                 <!-- Card 16 -->
                                 <a href="" class="cards">
                                     <div class="cards card16"> 
                                         <img src="src/assets/playlist/16.jpeg" alt="">
-                                        <span>K-Pop</span>
+                                        <span>Funk</span>
                                     </div>
                                 </a>
                             </section>
@@ -240,7 +247,7 @@
                 </div>
                 <div id="result-artist" class="hidden">
                     <div class="grid-container">
-                        <div class="artist" id="">
+                        <div class="artist-card" id="">
                             <div class="card-img">
                                 <img id="artist-img" class="artist-img"/>
                                 <div class="play">
@@ -248,7 +255,7 @@
                                 </div>
                             </div>
                             <div class="card-text">
-                                <a title="Foo Fighters" class="vst">
+                                <a title="Imagine Dragons" class="vst">
                                 <span class="artist-name" id="artist-name"></span>
                                 <span class="artist-categorie">Artista</span>
                                 </a>
@@ -260,6 +267,7 @@
         </div>
     </main>
 
-    <script type=text/javascript" src="script.js"></script>
+    <script src="./src/js/script.js" type="text/javascript"></script>
+    <script src="./src/js/header.js" type="text/javascript"></script>
 </body>
 </html>
