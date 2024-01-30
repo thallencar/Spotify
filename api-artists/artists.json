@@ -14,189 +14,184 @@
       },
       {
         "id": 3,
+        "name": "Stevie Wonder",
+        "genre": "Pop",
+        "urlImg": "https://i.scdn.co/image/37c7875911b1d8195b05d40061a86bd01908a0d9"
+      },
+      {
+        "id": 4,
+        "name": "Taylor Swift",
+        "genre": "Pop",
+        "urlImg": "https://i.scdn.co/image/ab67706c0000da84713acc3db68c7a5a605245b8"
+      },
+      {
+        "id": 5,
+        "name": "Harry Styles",
+        "genre": "Pop",
+        "urlImg": "https://i.scdn.co/image/ab6761610000e5ebf7db7c8ede90a019c54590bb"
+      },
+      {
+        "id": 6,
+        "name": "Dua Lipa",
+        "genre": "Pop",
+        "urlImg": "https://i.scdn.co/image/ab67616d00001e022172b607853fa89cefa2beb4"
+      },
+      {
+        "id": 7,
         "name": "Coldplay",
         "genre": "Pop",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb989ed05e1f0570cc4726c2d3"
       },
       {
-        "id": 4,
+        "id": 8,
         "name": "Ana Castela",
         "genre": "Sertanejo",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb26abde7ba3cfdfb8c1900baf"
       },
       {
-        "id": 5,
+        "id": 9,
         "name": "Jorge e Mateus",
         "genre": "Sertanejo",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb4519582131dc53d9f2c86803"
       },
       {
-        "id": 6,
-        "name": "Marília Mendonça",
-        "genre": "Sertanejo",
-        "urlImg": "https://i.scdn.co/image/ab67616100005174ffaebdbc972967729f688e25"
-      },
-      {
-        "id": 7,
+        "id": 10,
         "name": "Caetano Veloso",
         "genre": "MPB",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5ebe98de50f36cf1aa4bf047757"
       },
       {
-        "id": 8,
+        "id": 11,
         "name": "Chico Buarque",
         "genre": "MPB",
         "urlImg": "https://i.scdn.co/image/ab676161000051741f33f0eccfef05940a1ef879"
       },
       {
-        "id": 9,
+        "id": 12,
         "name": "Cazuza",
         "genre": "MPB",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb1313a3881791f8f2afd8611d"
       },
       {
-        "id": 10,
+        "id": 13,
         "name": "Chopin",
         "genre": "Classica",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5ebe55372097569b7b56b439365"
       },
       {
-        "id": 11,
+        "id": 14,
         "name": "Beethoven",
         "genre": "Classica",
         "urlImg": "https://i.scdn.co/image/db022999443da6f89e250086329d98b17399b346"
       },
       {
-        "id": 12,
+        "id": 15,
         "name": "Vivaldi",
         "genre": "Classica",
         "urlImg": "https://i.scdn.co/image/9785700bae86f991f78183076861c7342a4bcf90"
       },
       {
-        "id": 13,
+        "id": 16,
         "name": "Drake",
         "genre": "Hip Hop",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb4293385d324db8558179afd9"
       },
       {
-        "id": 14,
+        "id": 17,
         "name": "Eminem",
         "genre": "Hip Hop",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b"
       },
       {
-        "id": 15,
-        "name": "Travis Scott",
-        "genre": "Hip Hop",
-        "urlImg": "https://i.scdn.co/image/ab67706c0000da84cbbecdc2ffe3ca7836da07ef"
-      },
-      {
-        "id": 16,
+        "id": 18,
         "name": "Exaltasamba",
         "genre": "Samba e Pagode",
         "urlImg": "https://i.scdn.co/image/ab67616d0000b27302e4a8d93ee164e5bd371052"
       },
       {
-        "id": 17,
+        "id": 19,
         "name": "Turma do Pagode",
         "genre": "Samba e Pagode",
         "urlImg": "https://i.scdn.co/image/ab67616d0000b27384a70e0b73f73f513384ce3d"
       },
       {
-        "id": 18,
+        "id": 20,
         "name": "Ferrugem",
         "genre": "Samba e Pagode",
         "urlImg": "https://i.scdn.co/image/ab67616100005174444f2602bb6e0aa1c62eb553"
       },
       {
-        "id": 19,
+        "id": 21,
         "name": "Elvis Presley",
         "genre": "Rock",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb9a93e273380982dff84c0d7c"
       },
       {
-        "id": 20,
+        "id": 22,
         "name": "Queen",
         "genre": "Rock",
         "urlImg": "https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42"
       },
+
       {
-        "id": 21,
-        "name": "Stevie Wonder",
+        "id": 23,
+        "name": "Linkin Park",
         "genre": "Rock",
-        "urlImg": "https://i.scdn.co/image/37c7875911b1d8195b05d40061a86bd01908a0d9"
+        "urlImg": "https://i.scdn.co/image/ab67616d0000b2732daec0640dc5453668622835"
       },
       {
-        "id": 22,
+        "id": 24,
+        "name": "Twenty One Pilots",
+        "genre": "Rock",
+        "urlImg": "https://i.scdn.co/image/ab67616d0000b273de03bfc2991fd5bcfde65ba3"
+      },
+      {
+        "id": 25,
         "name": "Lana del Rey",
         "genre": "Indie",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5ebb99cacf8acd5378206767261"
       },
       {
-        "id": 23,
+        "id": 26,
         "name": "Ed Sheeran",
         "genre": "Indie",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb3bcef85e105dfc42399ef0ba"
       },
       {
-        "id": 24,
-        "name": "David Bowie",
-        "genre": "Indie",
-        "urlImg": "https://i.scdn.co/image/ab67616d0000b273204f41d52743c6a9efd62985"
-      },
-      {
-        "id": 25,
-        "name": "My Ryan SP",
+        "id": 27,
+        "name": "Mc Ryan SP",
         "genre": "Funk",
         "urlImg": "https://i.scdn.co/image/ab67706c0000da84ca219921f19e86dc73f7a075"
       },
       {
-        "id": 26,
-        "name": "Mc Hariel",
-        "genre": "Funk",
-        "urlImg": "https://i.scdn.co/image/ab67706c0000da848fdd15736d8fe42dae81406f"
-      },
-      {
-        "id": 27,
-        "name": "MC Kevin o Chris",
-        "genre": "Funk",
-        "urlImg": "https://i.scdn.co/image/ab676161000051748a1ec9781a1542458b3b961b"
-      },
-      {
         "id": 28,
-        "name": "Anitta",
-        "genre": "Latino",
-        "urlImg": "https://i.scdn.co/image/ab67616100005174adfb6f56b9dbbab47b4efd06"
-      },
-      {
-        "id": 29,
         "name": "Bad Bunny",
         "genre": "Latino",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb9ad50e478a469448c6f369df"
       },
       {
-        "id": 30,
+        "id": 29,
         "name": "Shakira",
         "genre": "Latino",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5eb284894d68fe2f80cad555110"
       },
       {
-        "id": 31,
+        "id": 30,
         "name": "BTS",
         "genre": "Kpop",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5ebd642648235ebf3460d2d1f6a"
       },
       {
-        "id": 32,
+        "id": 31,
         "name": "Blackpink",
         "genre": "Kpop",
         "urlImg": "https://i.scdn.co/image/ab6761610000e5ebc9690bc711d04b3d4fd4b87c"
       },
       {
-        "id": 33,
-        "name": "BabyMonster",
-        "genre": "Kpop",
-        "urlImg": "https://i.scdn.co/image/ab6761610000e5ebe75741762dfbd9002e13aa2a"
+        "id": 32,
+        "name": "Lo-fi",
+        "genre": "Relax",
+        "urlImg": "https://i.scdn.co/image/ab6775700000ee851728f54d7cccca075a2c60d1"
       }
     ]
   }
