@@ -3,9 +3,9 @@
 
 ## 🖥️ O Projeto
 
-![Tela Inicial](https://media.discordapp.net/attachments/1075996497407123509/1201735659119968276/image.png?ex=65cae68c&is=65b8718c&hm=7ef4c29a2871a5a543f235ee9f5bfa6545f36f209030530c653bab409ec2526e&=&format=webp&quality=lossless&width=864&height=421)
+![Tela Inicial](https://media.discordapp.net/attachments/1075996497407123509/1201743095520043088/image.png?ex=65d427f9&is=65c1b2f9&hm=decc22e8545909786a2489a8519fb06b4b605e9790bd129655ff6d276ce74ccc&=&format=webp&quality=lossless&width=852&height=415)
 
-![Buscando Artistas](https://media.discordapp.net/attachments/1075996497407123509/1201735824694321253/image.png?ex=65cae6b3&is=65b871b3&hm=ebf7922136a836b7835b898c112e70e38d66a4f47e02abd9eb31d960a639ab05&=&format=webp&quality=lossless&width=862&height=421)
+![Buscando Artistas](https://media.discordapp.net/attachments/1075996497407123509/1201743276244213772/image.png?ex=65d42824&is=65c1b324&hm=4986bb2f927d3d04ad37789fbc09b0b93b464a974597f46496fc6e7491be4b4f&=&format=webp&quality=lossless&width=852&height=415)
 
 ## 📂 Status do Projeto
 
@@ -26,4 +26,4 @@ npm install -g json-server@0.17.4
 json-server --watch api-artists/artists.json --port 3000
 ```
 ## 👥 Contate-me
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/){:target="_blank"}
