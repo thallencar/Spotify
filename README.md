@@ -27,4 +27,4 @@ json-server --watch api-artists/artists.json --port 3000
 ```
 
 ## 👥 Contate-me
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/thalita-de-alencar)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thalita-de-alencar)
